@@ -3,7 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "outDir": "../dist",
-    "strictNullChecks": true,
+    "noImplicitAny": true,
     // empty 'types' to make no implicit loading node_modules/@types
     "types": []
   },
