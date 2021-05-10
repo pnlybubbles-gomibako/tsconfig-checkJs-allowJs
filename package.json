@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "check:root": "tsc --noEmit --project tsconfig.json",
+    "check:a": "tsc --noEmit --project a/tsconfig.json",
+    "check:a-test": "tsc --noEmit --project a/tsconfig.test.json",
+    "check:b": "tsc --noEmit --project b/tsconfig.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "types": ["node"]
+  },
+  "include": ["**/*.test.ts", "../types.d.ts"]
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "../dist",
+    "strictNullChecks": true,
+    // empty 'types' to make no implicit loading node_modules/@types
+    "types": []
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.test.ts"]
+}
