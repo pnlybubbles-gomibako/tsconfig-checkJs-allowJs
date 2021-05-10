@@ -6,6 +6,6 @@ path.dirname(123)
 function a(_arg) {
 }
 
-// error occured on vscode due to loading tsconfig.json implicitly ignoring include path
+// **WIERD** error occured on vscode due to loading tsconfig.json implicitly ignoring include path
 // @ts-expect-error `Cannot find name 'foo'.`
 foo

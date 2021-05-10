@@ -8,5 +8,5 @@
     "allowJs": true,
     "checkJs": true
   },
-  "include": ["default.ts", "default.js"]
+  "include": ["main-ts.ts", "main-js.js"]
 }

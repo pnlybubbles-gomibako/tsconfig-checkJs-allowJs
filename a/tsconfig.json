@@ -4,7 +4,7 @@
     "module": "esnext",
     "outDir": "../dist",
     "noImplicitAny": true,
-    // empty 'types' to make no implicit loading node_modules/@types
+    // **NOTE** empty 'types' to make no implicit loading node_modules/@types
     "types": []
   },
   "include": ["**/*.ts"],
