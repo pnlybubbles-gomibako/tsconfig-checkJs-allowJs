@@ -5,5 +5,5 @@
     "esModuleInterop": true,
     "types": ["node"]
   },
-  "include": ["**/*.test.ts", "../types.d.ts"]
+  "include": ["**/*.test.ts", "../types-a-test.d.ts"]
 }

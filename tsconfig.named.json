@@ -3,10 +3,11 @@
     "target": "esnext",
     "module": "esnext",
     "esModuleInterop": true,
+    "noImplicitAny": true,
     "types": [],
     "outDir": "dist",
     "allowJs": true,
     "checkJs": true
   },
-  "include": ["named-ts.ts", "named-js.js", "named-comment.js"]
+  "include": ["named-ts.ts", "named-js.js", "named-comment.js", "types-named.d.ts"]
 }

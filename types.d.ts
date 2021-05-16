@@ -1,1 +1,1 @@
-declare var foo: string
+declare var main: boolean

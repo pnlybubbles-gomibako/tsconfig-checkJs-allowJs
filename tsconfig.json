@@ -3,10 +3,11 @@
     "target": "esnext",
     "module": "esnext",
     "esModuleInterop": true,
+    "noImplicitAny": true,
     "types": [],
     "outDir": "dist",
     "allowJs": true,
     "checkJs": true
   },
-  "include": ["main-ts.ts", "main-js.js"]
+  "include": ["main-ts.ts", "main-js.js", "types.d.ts"]
 }

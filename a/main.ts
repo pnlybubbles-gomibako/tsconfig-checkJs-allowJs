@@ -7,5 +7,9 @@ path.dirname(123)
 function a(_arg) {
 }
 
-// @ts-expect-error `Cannot find name 'foo'.`
-foo
+// @ts-expect-error `Cannot find name 'aTest'.`
+aTest
+// @ts-expect-error `Cannot find name 'named'.`
+named
+// @ts-expect-error `Cannot find name 'main'.`
+main
